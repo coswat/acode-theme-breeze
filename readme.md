@@ -2,7 +2,7 @@
 
 Theme Breeze is a app theme plugin for Acode app
 
-## Applying theme 
+<br>
 
 <strong>Select theme:</strong> Start using the theme: `Acode > Settings > Themes > Theme Breeze`.
 
