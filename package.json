@@ -1,17 +1,18 @@
 {
-  "name": "acode-theme-vscode",
-  "description": "Visual studio theme for acode!",
-  "version": "1.0.2",
-  "license": "Apache-2.0",
-  "author": "sebastianjnuwu <sebastianjnuwu@gmail.com>",
+  "name": "acode-theme-breeze",
+  "description": "Breeze theme for Acode app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Abhishek B | Coderswat",
   "keywords": [
-    "vscode",
+    "breeze",
     "acode",
     "theme"
   ],
   "scripts": {
     "build": "webpack",
-    "build-release": "webpack --mode production"
+    "build-release": "webpack --mode production",
+    "start-dev": "node .devServer/start-dev"
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
@@ -44,9 +45,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sebastianjnuwu/acode-theme-vscode"
+    "url": "https://github.com/coswat/acode-theme-breeze"
   },
   "bugs": {
-    "url": "https://github.com/sebastianjnuwu/acode-theme-vscode/issues"
+    "url": "https://github.com/coswat/acode-theme-breeze/issues"
   }
 }
