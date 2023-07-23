@@ -17,8 +17,12 @@ module.exports = (env, options) => {
       ],
     },
     {
+      test: /\.ts$/,
+      exclude: /node_modules/,
+      use: "ts-loader",
+    },
+    {
       test: /\.(sa|sc|c)ss$/,
-
       use: ["raw-loader", "postcss-loader", "sass-loader"],
     },
   ];
@@ -26,12 +30,15 @@ module.exports = (env, options) => {
   const main = {
     mode,
     entry: {
-      main: "./src/main.js",
+      main: "./src/main.ts",
     },
     output: {
       path: path.resolve(__dirname, "dist"),
       filename: "[name].js",
       chunkFilename: "[name].js",
+    },
+    resolve: {
+      extensions: [".ts", ".js"],
     },
     module: {
       rules,

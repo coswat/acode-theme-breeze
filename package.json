@@ -10,7 +10,8 @@
     "theme"
   ],
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack",
+    "build-release": "webpack --mode production"
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
@@ -26,6 +27,8 @@
     "live-server": "^1.2.2",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.0.2",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
     "raw-loader": "^4.0.2",
     "sass": "^1.57.1",
     "sass-loader": "^13.2.0",
