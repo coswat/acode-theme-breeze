@@ -12,7 +12,7 @@
   "scripts": {
     "build": "webpack",
     "build-release": "webpack --mode production",
-    "start-dev": "node .devServer/start-dev"
+    "start-dev": "node .vscode/start-dev"
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
